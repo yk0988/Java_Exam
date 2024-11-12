@@ -10,7 +10,7 @@ public class TriangleLU extends AbstTriangle {
 
     // toString은 좌상단이 직각인 삼각형의 정보를 문자열로 반환한다.
     // @return 문자열 "TriangleLU(length:3)"을 반환한다.
-    // 3부분은 길이에 해당하는 값이다.
+    // 3부분은 길이에 해당하는 값.
     public String toString() {
         return "TriangleLU(length: " + getLength() + ")";
     }
