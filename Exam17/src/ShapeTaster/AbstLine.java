@@ -1,5 +1,5 @@
 package ShapeTaster;
-
+        //추상클래스//
 public abstract class AbstLine extends Shape {
 
     private int length; // 길이 변수
