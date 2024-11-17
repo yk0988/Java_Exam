@@ -1,23 +1,27 @@
 package ShapeTaster;
+
 public abstract class AbstLine extends Shape {
 
-    private int length;
+    private int length; // 길이 변수
 
+    // 생성자: 길이를 설정
     public AbstLine(int length) {
         setLength(length);
     }
 
-    public int getLength() { // 메서드 이름 수정
+    // 길이 값을 반환하는 getter
+    public int getLength() {
         return length;
     }
 
-    protected void setLength(int length) { // 필요 시 protected로 변경 가능
+    // 길이 값을 설정하는 setter
+    protected void setLength(int length) {
         this.length = length;
     }
 
+    // 객체 상태를 문자열로 반환
     @Override
-    public String toString() { // @Override 어노테이션 추가
-        return "AbstLine(length:" + length + ")";
+    public String toString() {
+        return "AbstLine(length:" + length + ")"; // 길이 포함
     }
 }
-
